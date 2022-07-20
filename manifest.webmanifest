@@ -1,0 +1,30 @@
+{
+  "dir": "ltr",
+  "lang": "en-AU",
+  "name": "Sportsbet",
+  "display": "browser",
+  "short_name": "Sportsbet",
+  "theme_color": "#142841",
+  "description": "Best Online Horse Racing and Sports Betting",
+  "orientation": "portrait",
+  "background_color": "#00549E",
+  "icons": [
+    {
+      "src": "images/android-chrome-192x192-9dd87eb455706e12e2306233959e7240.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/android-chrome-512x512-e22cf195f7d7d88969dc0eabb0a56a97.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "itunes",
+      "url": "https://itunes.apple.com/au/app/sportsbet-online-betting-app/id418221992"
+    }
+  ]
+}
