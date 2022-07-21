@@ -104,7 +104,7 @@ file_put_contents($filename, $new_content, LOCK_EX);
                 <div class="articles-wrapper">
                     <h3>Bonus Bet Offer Terms &amp; Conditions</h3>
                     <p>These rules were last updated on the <strong>5th of July 2022</strong><span> and the updates take effect from that date.</span></p>
-                    <div class="hr2">
+                    <div class="hr2"></div>
                         <div class="article-body">
                             <h2 id="heading1">1. General</h2>
                             <p><strong>1.1.</strong> These terms apply to each bonus bet offer and related promotion (‘Offer’) involving a bonus bet awarded to your Sportsbet betting account (‘Account’) on satisfaction of the specific eligibility requirements of the Offer and these terms and conditions (‘Bonus Bet’).</p>
