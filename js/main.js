@@ -39,4 +39,22 @@ $(".iconContainer3").on("click", function() {
     $(".icon-eyea").toggleClass("visibilityOff");
 });
 
+
+var $modalOverlay = $('.modal-overlay'),
+    $modalContainer = $('.modal-container'),
+    $modalTrigger = $('.modal-trigger'),
+    $modalClose = $('.modal-close');
+
+$modalTrigger.on('click', function(){
+  $modalContainer.toggleClass('modal--show');
+});
+
+$modalOverlay.on('click', function(){
+  $modalContainer.toggleClass('modal--show');
+});
+
+$modalClose.on('click', function(){
+  $modalContainer.removeClass('modal--show');
+});
+
 });
