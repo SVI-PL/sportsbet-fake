@@ -360,12 +360,19 @@ button {
 }
 
 .image2 {
-    background: url(/images/checkbox-filled.png) no-repeat center center;
+    background: url(/images/checkbox-filled_uncheck.png) no-repeat center center;
     background-attachment: scroll;
     background-size: contain;
     height: 1.125rem;
     width: 1.125rem;
 
+}
+.image2.button2.visibility {
+    background: url(/images/checkbox-filled.png) no-repeat center center;
+    background-attachment: scroll;
+    background-size: contain;
+    height: 1.125rem;
+    width: 1.125rem;
 }
 
 .fullWidthWrapper {

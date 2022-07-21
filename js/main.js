@@ -38,7 +38,9 @@ $(".iconContainer3").on("click", function() {
     $(".icon-eyea").toggleClass("visibility");
     $(".icon-eyea").toggleClass("visibilityOff");
 });
-
+$(".button2").on("click", function() {
+    $(this).toggleClass("visibility");
+});
 
 var $modalOverlay = $('.modal-overlay'),
     $modalContainer = $('.modal-container'),
