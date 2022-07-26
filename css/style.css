@@ -367,6 +367,7 @@ button {
     width: 1.125rem;
 
 }
+
 .image2.button2.visibility {
     background: url(/images/checkbox-filled.png) no-repeat center center;
     background-attachment: scroll;
@@ -603,7 +604,7 @@ button {
 
 /* MODAL */
 .modal-trigger {
-    padding: 1em 1.5em;
+    padding: 1em 0;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -718,23 +719,32 @@ button {
     transform: scale(1);
     opacity: 1;
 }
+
 .lighter2 {
     border-radius: 50%;
     position: relative;
     color: #000000;
 }
 
-.article-body ul, .article-body ol {
+.article-body ul,
+.article-body ol {
     padding-left: 20px;
     list-style-position: outside;
     margin: 20px 0 0px 0px;
 }
+
 .hr2 {
     border: 0;
     border-top: 1px solid #eee;
     margin: 20px 0;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 10px 0;
 }
 
@@ -743,20 +753,25 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: column;
 }
-.titleCentered h2{
+
+.titleCentered h2 {
     margin: 0;
 }
+
 .title {
     font-family: Titillium Web, sans-serif;
     line-height: 1.75rem;
     text-align: center;
 }
+
 .SchoolBus {
     color: #FAD701;
 }
-.size22{
+
+.size22 {
     font-size: 1.375rem;
 }
+
 .registrationFormContainerDesktop {
     align-items: center;
     display: flex;
@@ -766,11 +781,326 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0.5rem auto;
     width: 100%;
 }
+
 .bonus_text {
     color: #000;
     padding: 20px 0;
     text-align: center;
     line-height: 20px;
+}
+
+.ccNumberLabelWrapper {
+    display: flex;
+}
+
+.cardNumberInfo {
+    display: inline-block;
+    padding-bottom: 0.75rem;
+}
+
+.ccImagesText {
+    align-items: center;
+    display: flex;
+    padding-right: 1rem;
+}
+
+.ccImagesText .image {
+    background: url(/images/visa_big.png) no-repeat center center;
+    background-attachment: scroll;
+    background-size: contain;
+    height: 0.75rem;
+    width: 2.5rem;
+}
+
+.ccImagesText .image.imageSpacing {
+    background: url(/images/mastercard.png) no-repeat center center;
+    background-attachment: scroll;
+    background-size: contain;
+    height: 1.875rem;
+    width: 1.875rem;
+}
+
+.imageSpacing {
+    margin-left: 0.5rem;
+}
+
+.container .container {
+    padding-top: 0.8125rem;
+    position: relative;
+    width: 100%;
+}
+
+.codGray {
+    color: #111111;
+}
+
+label.label {
+    font-size: 0.875rem;
+    line-height: 1rem;
+    position: absolute;
+    top: 21px;
+    transform-origin: left top;
+}
+
+.inputContainer.inputContainer {
+    padding: 0;
+    position: relative;
+}
+
+input#cc-number {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    font-family: Roboto;
+    font-size: 0.875rem;
+    height: 2rem;
+    line-height: 2rem;
+    outline: none;
+    -webkit-appearance: none;
+    border-radius: 0.0625rem;
+    padding: 0rem 0.325rem;
+    padding-left: 0;
+    width: 100%;
+}
+
+.expiryCVVfieldsWrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 1.125rem 0rem 0.5rem;
+}
+
+.expiryDateWrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.cvvFieldWrapper {
+    display: flex;
+    flex: 0.65;
+    flex-direction: row;
+    padding-top: 0.1875rem;
+}
+
+.cvvRightSpacer {
+    display: flex;
+    flex: 0.65;
+    flex-direction: row;
+    padding-top: 0.1875rem;
+}
+
+.expiryDateInputFieldsWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.expiryField {
+    display: flex;
+    flex: 0.31;
+}
+
+.expiryDateSeparator {
+    display: flex;
+    flex: 0.195;
+    justify-content: center;
+    padding-top: 0.4375rem;
+}
+
+.containerNoLabel {
+    position: relative;
+    width: 100%;
+}
+
+.descriptionContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.descriptionText {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.6875rem;
+    height: 0.8125rem;
+    justify-content: flex-start;
+    margin-top: 0.5rem;
+}
+
+.Nevada {
+    color: #686B70;
+}
+
+input#cc-expiry-year {
+    -webkit-appearance: none;
+    border-radius: 0.0625rem;
+    padding: 0rem 0.325rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    font-family: Roboto;
+    font-size: 0.875rem;
+    height: 2rem;
+    line-height: 2rem;
+    outline: none;
+    padding-left: 0;
+}
+
+.rightIconPlacement {
+    padding-left: 0.375rem;
+    right: 0;
+}
+
+.default {
+    align-items: center;
+    display: flex;
+    font-size: 1.0625rem;
+    height: 2rem;
+    position: absolute;
+    top: 0.8125rem;
+}
+
+input#cc-cvv-number {
+    -webkit-appearance: none;
+    border-radius: 0.0625rem;
+    padding: 0rem 0.325rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    font-family: Roboto;
+    font-size: 0.875rem;
+    height: 2rem;
+    line-height: 2rem;
+    outline: none;
+    padding-left: 0;
+    padding-right: 1.8125rem;
+}
+
+.creditCard::before {
+    content: "";
+}
+
+.cvvRightSpacer2 {
+    display: flex;
+    flex: 0.34;
+}
+
+
+.form2 {
+    background: #FFFFFF;
+    max-width: 25rem;
+}
+
+.fields {
+    display: flex;
+    justify-content: space-between;
+}
+
+.presetsContainer {
+    margin-top: 2rem;
+}
+
+.buttonField {
+    display: flex;
+    padding-top: 1.5rem;
+    justify-content: center;
+}
+
+.depositFieldDesktop {
+    width: 11.25rem;
+}
+
+.cvvDesktop {
+    margin-left: 0;
+    width: 0;
+}
+
+.buttonContainer3 {
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    height: 2.375rem;
+}
+
+.buttonDesktop {
+    color: #111111;
+    height: 100%;
+    margin-right: 0.5rem;
+    text-align: center;
+    width: 4.125rem;
+}
+
+.buttonContainer_in {
+    border-radius: 0.25rem;
+    height: 100%;
+    position: relative;
+}
+
+button.textButtonVariable {
+    background: transparent;
+    border: 0px solid rgba(0, 0, 0, 0);
+    border-radius: 0.25rem;
+    cursor: default;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.white {
+    background-color: #FFFFFF;
+    border: 0.0625rem solid #C3C5C7;
+    border-bottom: 0.125rem solid #C3C5C7;
+    color: #111111;
+}
+
+.submitButton {
+    height: 3rem;
+    width: 8.125rem;
+}
+
+.buttonContainer5 {
+    border-radius: 0.25rem;
+    height: 100%;
+    position: relative;
+}
+
+.lock::before {
+    content: "";
+}
+
+.securityInfoAndLink {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.securityInfo {
+    align-items: center;
+    display: flex;
+    padding-top: 0.75rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.Endeavour {
+    color: #00549E;
+}
+
+.size11 {
+    font-size: 0.6875rem;
+}
+
+.securityInfoText {
+    font-size: 0.6875rem;
+}
+
+.securityIcon {
+    color: #686B70;
+    opacity: 0.58;
+}
+
+.you_get {
+    padding-top: 1.5rem;
 }
 
 @media screen and (max-width: 768px) {

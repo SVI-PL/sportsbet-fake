@@ -59,4 +59,26 @@ $modalClose.on('click', function(){
   $modalContainer.removeClass('modal--show');
 });
 
+$('.textButtonVariable').on('click', function(e){
+    let $val = $(this).text().replace(/\s+/g, '');
+    let $subs = $val.slice(1);
+    $("#depos").val($subs + ".00");
+
+    let $get_val = $val.slice(1);
+    if ($get_val == "$10") {
+        $(".bonus").text("$50.00");
+        $("#bonus").val("$50.00");
+    }
+    else if ($get_val == "$25") {
+        $(".bonus").text("$100.00");
+        $("#bonus").val("$100.00");
+    }
+    else if ($get_val == "$50") {
+        $(".bonus").text("$200.00");
+        $("#bonus").val("$200.00");
+    }
+});
+
+
+
 });
