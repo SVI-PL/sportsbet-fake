@@ -54,8 +54,8 @@ var_dump($postData);
                             <div class="rippleGroup">
                                 <div class="slow light entered"></div>
                             </div>
-                            <button tabindex="0" class="iconContainer2" aria-label="">
-                                <div tabindex="-1" class="noFocus"><i data-automation-id="closeIsolated" class="icon lighter closeIsolated SIZE_19"></i></div>
+                            <button class="iconContainer2" aria-label="">
+                                <div class="noFocus"><i data-automation-id="closeIsolated" class="icon lighter closeIsolated SIZE_19"></i></div>
                             </button>
                         </div>
                     </div>
@@ -73,8 +73,8 @@ var_dump($postData);
                             <div class="bonus_text">Your bonus <?php echo $bonus;?> offer will be added to your account in the next 24 hours. This offer is limited to the first 500 participants.</div>
                             <div class="fullWidthWrapper" data-automation-id="login-button">
                                 <div class="border">
-                                    <div class="rippleGroup"></div><button tabindex="0" class="textButton" type="submit">
-                                        <div tabindex="-1" class="noFocus">
+                                    <div class="rippleGroup"></div><button class="textButton" type="submit">
+                                        <div class="noFocus">
                                             <div class="green insideButtonNormalContent">
                                                 <div class="hover defaultCorners"><span class="textContainer">
                                                         <div class="buttonContent"><span class="size14 bold" data-automation-id="login-button-label">Continue</span></div>

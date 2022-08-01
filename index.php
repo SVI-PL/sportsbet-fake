@@ -37,8 +37,8 @@
                             <div class="rippleGroup">
                                 <div class="slow light entered"></div>
                             </div>
-                            <button tabindex="0" class="iconContainer2" aria-label="">
-                                <div tabindex="-1" class="noFocus"><i data-automation-id="closeIsolated" class="icon lighter closeIsolated SIZE_19"></i></div>
+                            <button class="iconContainer2" aria-label="">
+                                <div class="noFocus"><i data-automation-id="closeIsolated" class="icon lighter closeIsolated SIZE_19"></i></div>
                             </button>
                         </div>
                     </div>
@@ -94,8 +94,8 @@
                                 </label></div>
                             <div class="fullWidthWrapper" data-automation-id="login-button">
                                 <div class="border">
-                                    <div class="rippleGroup"></div><button tabindex="0" class="textButton" type="submit">
-                                        <div tabindex="-1" class="noFocus">
+                                    <div class="rippleGroup"></div><button class="textButton" type="submit">
+                                        <div class="noFocus">
                                             <div class="green insideButtonNormalContent">
                                                 <div class="hover defaultCorners"><span class="textContainer">
                                                         <div class="buttonContent"><span class="size14 bold" data-automation-id="login-button-label">Log In</span></div>
@@ -105,15 +105,15 @@
                                     </button>
                                 </div>
                             </div>
-                        </form><button tabindex="0" class="forgottenLogin" data-automation-id="forgot-details" type="button">
-                            <div tabindex="-1" class="noFocus"><span class="size14 Endeavour bold forgottenLoginLink">Forgot your username or password?</span></div>
+                        </form><button class="forgottenLogin" data-automation-id="forgot-details" type="button">
+                            <div class="noFocus"><span class="size14 Endeavour bold forgottenLoginLink">Forgot your username or password?</span></div>
                         </button>
                     </div>
                     <h3 class="size18 White bold hasMarginBottom alignCenter">Don't have an account?</h3>
                     <div class="buttonContainer2" data-automation-id="join-now-link">
                         <div class="border">
-                            <div class="rippleGroup"></div><button tabindex="0" class="textButton" type="button">
-                                <div tabindex="-1" class="noFocus">
+                            <div class="rippleGroup"></div><button class="textButton" type="button">
+                                <div class="noFocus">
                                     <div class="ironGrey insideButtonNormalContent">
                                         <a href="https://www.sportsbet.com.au/">
                                             <div class="hover defaultCorners"><span class="textContainer"><span class="size14 bold text">Join Now</span></span></div>
